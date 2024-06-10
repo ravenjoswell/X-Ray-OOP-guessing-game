@@ -50,3 +50,20 @@ while game.solved() == False:
 
 print(f"{last_guess} was correct!")
 ```
+## Running the test suite
+
+This exercise contains a pytest test suite to help you exercise your Test Driven Development skills. To run the test suite, please follow these steps:
+
+- Install pytest
+
+  ```bash
+    # terminal command
+    pip install pytest
+  ```
+
+- Run the test suite
+
+  ```bash
+    # terminal command
+    pytest test_guessing_game.py
+  ```
